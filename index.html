@@ -35,7 +35,7 @@
       <p class="hero-text">I started my journey in the digital world with a fascination for tech and web development. 
         But somewhere along the line, the focus shifted – I became captivated by the user experience and the visual language that brings it to life. Now, I wear two hats: freelance UX/UI designer and graphic designer. 
         I love crafting intuitive interfaces and visually compelling experiences, big or small. <br> <br>Outside of design, you'll find me curled up with a good book. 
-        African fiction holds a special place on my shelf – the stories burst with vibrancy and tell a unique side of the human experience. It's a constant source of inspiration, both for design and for life in general.
+        African fiction holds a special place on my shelf – the stories are bursting with vibrancy and tell a unique side of the human experience. It's a constant source of inspiration, both for design and for life in general.
       </p>
 
       <div class="line-divider-top"></div>
@@ -45,29 +45,97 @@
     </section>
 
     <section id="skills">
-      <h2>Skills</h2>
-      <ul>
+      <h2>skills</h2>
+      <div class="grid-container">
+        <ul class="grid-list">
+        <li class="skill-tile right">
+            <img src="assets/pexels-jonathan-borba-3052727.jpg" alt="">
+          <h6 class="skill-tile-text">Graphic Design</h6>
+          <p class="skill-tile-text">A collection of rock posters</p>
+          <p class="skill-tile-text" style="font-size: 8px">By Jonathan Borba </p>
+        </li>
+
+        <li class="skill-tile left">
+          <img src="assets/pexels-jonathan-borba-3052727.jpg" alt="">
+        <h6 class="skill-tile-text">3D Design</h6>
+        <p class="skill-tile-text">A collection of rock posters</p>
+        <p style="font-size: 8px" class="skill-tile-text">By Jonathan Borba </p>
+        </li>
         
-        <li>[Skill 1]</li>
-        <li>[Skill 2]</li>
-        <li>[Skill 3]</li>
+        <li class="skill-tile right">
+          <img src="assets/vitor-monthay-uum9wLOE1Pg-unsplash.jpg" alt="">
+        <h6 class="skill-tile-text">Photography</h6>
+        <p class="skill-tile-text">A photo of a villa</p>
+        <p class="skill-tile-text photo-attribute" style="font-size: 8px">By Vitor Monthay </p>
+        </li>
+
       </ul>
+      </div>
+      
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <ul>
+    <section id="contact" class="contact-grid-section">
+      <div class="grid-item-left">
+        <h1>LUCKY SIKOLIA</h1>
+        <ul>
+          <li>
+            <a class="contact-nav-link" href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a class="contact-nav-link" href="#skills">Skills</a>
+          </li>
+          <li>
+            <a class="contact-nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <div class="contact-icons">
+          <span class="ri--instagram-fill"></span>
+          <span class="fa6-brands--square-behance"></span>
+          <span class="mdi--twitter"></span>
+        </div>
+      </div>
+
+      <div class="grid-item-right">
+        <h6>Any questions? Leave a request and I will reach out to you</h6>
+        <form action="#" method="post" class="contact-form">
+          <ul>
+            <li class="form-email">
+              <label for="email">Email address</label><br>
+              <input type="email" id="email" placeholder="Email">
+            </li>
+            <li class="form-name">
+              <label for="name">Name</label><br>
+              <input type="text" id="name" placeholder="Name">
+            </li>
+            <li class="form-comment">
+              <label for="comment">Comment</label><br>
+              <textarea name="comment" id="comment" cols="40" rows="10" placeholder="Commment"></textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Contact Me</button>
+            </li>
+          </ul>
+          <!-- <label for="name">Name</label><br>
+          <input type="text" id="name" value="Name">
+          <br> -->
+        </form>
+      </div>
+      <!-- <h2>Contact</h2> -->
+      <!-- <ul>
         <li>
           <a href="mailto:[Your Email Address]">Email: [Your Email Address]</a>
         </li>
         <li>
           <a href="[Your Social Media Link]">Social Media: [Social Media Platform]</a>
         </li>
-      </ul>
+      </ul> -->
     </section>
   </main>
  <footer>
-    <p>&copy; [Year] [Your Name Here]</p>
+    <p>2024 &copy; Lucky</p>
+    <p>Designed in Figma</p>
+    <p>All images are sourced from Unsplash and Pexels</p>
   </footer>
 
   <script>
